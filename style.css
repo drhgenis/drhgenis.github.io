@@ -243,6 +243,9 @@ a {
 .contact-banner .columns .column-1 .title {
     color: white !important;
 }
+.contact-banner .columns .column-2 #telephone {
+    color: var(--globalLightAccentColor) !important;
+}
 #map {
     width: 100%;
     max-width: 45rem;
