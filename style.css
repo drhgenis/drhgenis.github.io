@@ -56,6 +56,9 @@ body {
 .small-width {max-width: 30rem;}
 .tiny-width {max-width: 16rem;}
 
+.font-serif {font-family: var(--fontFamilySerif);}
+.font-sans {font-family: var(--fontFamilySans);}
+
 .align-center {margin: 0 auto;}
 .align-left {margin-left: 0;margin-right: auto;}
 .align-right {margin-right: 0;margin-left: auto;}
@@ -122,13 +125,10 @@ a {
     padding: 1rem var(--globalPadding);
     background-color: var(--globalDarkAccentColor);
     background-image: url("src/bgimage.jpg");
-    background-size: auto 100%;
+    background-size: auto 200%;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: top right;
     color: white;
-}
-.banner.strip {
-    background-image: none;
 }
 
 .banner .navbar {
@@ -232,7 +232,7 @@ a {
     font-family: var(--fontFamilySerif);
 }
 .columns .column-2 p {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .contact-banner {
@@ -272,11 +272,19 @@ a {
     margin-right: var(--globalPadding);
 }
 
+.page-title {
+    padding: 4rem 0;
+}
+
 /* Media Queries */
 
 @media (orientation: portrait){
     .banner {
-        background-size: auto 100%;
+        background-size: auto 200%;
+        background-position: top center;
+    }
+    .page-title {
+        padding: 2rem 0;
     }
 }
 
