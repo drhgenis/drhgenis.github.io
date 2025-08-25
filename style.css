@@ -238,7 +238,7 @@ a {
 .contact-banner {
     background-color: var(--globalDarkAccentColor);
     color: white;
-    padding: 4rem var(--globalPadding) 2rem var(--globalPadding);
+    padding: 4rem var(--globalPadding) 0 var(--globalPadding);
 }
 .contact-banner .columns .column-1 .title {
     color: white !important;
@@ -261,14 +261,15 @@ a {
 }
 
 .footer {
-    padding-top: 2rem;
-    padding: 2rem var(--globalPadding) 1rem var(--globalPadding);
+    padding: 3rem 0 2rem 0;
     text-align: right;
-    font-size: .9rem;
-    opacity: .3;
+    font-size: .6rem;
+    font-weight: 300;
+    opacity: .5;
 }
-.contact-banner .footer {
-    padding: 2rem 0 0 0;
+#hakkinda-sayfasi .footer {
+    margin-left: var(--globalPadding);
+    margin-right: var(--globalPadding);
 }
 
 /* Media Queries */
