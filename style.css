@@ -244,7 +244,7 @@ a {
     color: white !important;
 }
 .contact-banner .columns .column-2 #telephone {
-    color: var(--globalLightAccentColor) !important;
+    color: rgb(154, 203, 252) !important;
 }
 #map {
     width: 100%;
