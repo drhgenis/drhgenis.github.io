@@ -129,7 +129,7 @@ a {
     background-repeat: no-repeat;
     background-position: top right;
     color: white;
-}
+}.banner.strip {background-image: none !important;}
 
 .banner .navbar {
     margin-top: 2rem;
@@ -273,7 +273,7 @@ a {
 }
 
 .page-title {
-    padding: 4rem 0;
+    padding: 2rem 0;
 }
 
 /* Media Queries */
@@ -282,9 +282,6 @@ a {
     .banner {
         background-size: auto 200%;
         background-position: top center;
-    }
-    .page-title {
-        padding: 2rem 0;
     }
 }
 
