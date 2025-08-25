@@ -262,7 +262,7 @@ a {
 
 .footer {
     padding-top: 2rem;
-    padding: 2rem var(--globalPadding) 0 var(--globalPadding);
+    padding: 2rem var(--globalPadding) 1rem var(--globalPadding);
     text-align: right;
     font-size: .9rem;
     opacity: .3;
