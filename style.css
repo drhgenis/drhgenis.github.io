@@ -321,6 +321,10 @@ a {
     .hakkinda #portrait {
         max-width: 200px;
     }
+    .banner {
+        background-size: auto 200%;
+        background-position: top center;
+    }
 }
 
 @media (max-width:750px) {
