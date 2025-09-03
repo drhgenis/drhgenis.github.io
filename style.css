@@ -372,6 +372,18 @@ a {
         max-width: 125px;
         margin: 0 0 1rem 1rem;
     }
+    .brand {
+        font-size: .85rem;
+    }
+    .brand .logo {
+        height: 2rem;
+    }
+    .banner .navbar {
+        font-size: .8rem;
+    }
+    .banner .navbar ul {
+        gap: .6rem;
+    }
 }
 
 @keyframes targetAnimation {
